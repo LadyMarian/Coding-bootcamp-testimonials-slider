@@ -1,0 +1,75 @@
+@media (min-width: 1400px) {
+    body {
+        background-size: 45vw;
+        
+    }
+
+    .container {
+        width: 1400px;
+        height: 800px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .header {
+        width: 50%;
+        margin-right: 3rem;
+        margin-left: -3rem;
+        
+        &__picture {
+            height: 512.04px;
+        }
+    }
+
+    .buttons {
+        left: -155px;
+
+        &__shadow {
+            left: -100px;
+            width: 240px;
+        }
+    }
+
+    .button__arrow {
+        height: 2.5rem;
+    }
+
+    .main {
+        width: 50%;
+        margin-left: 6rem;
+        margin-right: -6rem;
+        text-align: left;
+        align-items: flex-start;
+
+        &__img {
+            width: 100px;
+            margin-left: 6rem;
+            margin-right: auto;
+            margin-bottom: -40px;
+        }
+
+        &__testimonial {
+            margin-top: 0;
+            font-size: 32px;
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            &__name {
+                font-size: 20.5px;
+            }
+
+            &__position {
+                font-size: 20.5px;
+                margin-left: .4rem;
+                margin-bottom: auto;
+            }
+        }
+
+    }
+
+
+}
